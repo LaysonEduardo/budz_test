@@ -24,6 +24,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "accountDeleted":
+            MessageLookupByLibrary.simpleMessage("Sua conta foi excluída"),
+        "accountDeletedDeletedMessage": MessageLookupByLibrary.simpleMessage(
+            "É uma pena ver você indo embora! Mas fica tranquilo, estaremos de braços abertos caso queira voltar. Até logo! 💙"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancelar"),
         "changePassword": MessageLookupByLibrary.simpleMessage("Alterar Senha"),
         "changePhoto": MessageLookupByLibrary.simpleMessage("Alterar Foto"),
@@ -35,6 +39,19 @@ class MessageLookup extends MessageLookupByLibrary {
             "Todas as suas informações e a evolução do seu pet no aplicativo serão apagadas. Essa ação não pode ser desfeita."),
         "deleteReason": MessageLookupByLibrary.simpleMessage(
             "Conta pra gente, qual o motivo da exclusão?"),
+        "deleteReason1":
+            MessageLookupByLibrary.simpleMessage("Eu não uso mais o Budz"),
+        "deleteReason2":
+            MessageLookupByLibrary.simpleMessage("Valores das assinaturas"),
+        "deleteReason3": MessageLookupByLibrary.simpleMessage(
+            "Insatisfação com os serviços oferecidos"),
+        "deleteReason4":
+            MessageLookupByLibrary.simpleMessage("Tive problemas técnicos"),
+        "deleteReason5": MessageLookupByLibrary.simpleMessage(
+            "Conteúdos ruins ou irrelevantes"),
+        "deleteReason6":
+            MessageLookupByLibrary.simpleMessage("Experiência e usabilidade"),
+        "deleteReason7": MessageLookupByLibrary.simpleMessage("Outro"),
         "editProfile": MessageLookupByLibrary.simpleMessage("Editar Perfil"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "gender": MessageLookupByLibrary.simpleMessage("Gênero"),

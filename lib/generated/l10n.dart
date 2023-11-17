@@ -309,6 +309,96 @@ class I18n {
       args: [],
     );
   }
+
+  /// `Eu não uso mais o Budz`
+  String get deleteReason1 {
+    return Intl.message(
+      'Eu não uso mais o Budz',
+      name: 'deleteReason1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Valores das assinaturas`
+  String get deleteReason2 {
+    return Intl.message(
+      'Valores das assinaturas',
+      name: 'deleteReason2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Insatisfação com os serviços oferecidos`
+  String get deleteReason3 {
+    return Intl.message(
+      'Insatisfação com os serviços oferecidos',
+      name: 'deleteReason3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tive problemas técnicos`
+  String get deleteReason4 {
+    return Intl.message(
+      'Tive problemas técnicos',
+      name: 'deleteReason4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Conteúdos ruins ou irrelevantes`
+  String get deleteReason5 {
+    return Intl.message(
+      'Conteúdos ruins ou irrelevantes',
+      name: 'deleteReason5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Experiência e usabilidade`
+  String get deleteReason6 {
+    return Intl.message(
+      'Experiência e usabilidade',
+      name: 'deleteReason6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Outro`
+  String get deleteReason7 {
+    return Intl.message(
+      'Outro',
+      name: 'deleteReason7',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sua conta foi excluída`
+  String get accountDeleted {
+    return Intl.message(
+      'Sua conta foi excluída',
+      name: 'accountDeleted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `É uma pena ver você indo embora! Mas fica tranquilo, estaremos de braços abertos caso queira voltar. Até logo! 💙`
+  String get accountDeletedDeletedMessage {
+    return Intl.message(
+      'É uma pena ver você indo embora! Mas fica tranquilo, estaremos de braços abertos caso queira voltar. Até logo! 💙',
+      name: 'accountDeletedDeletedMessage',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<I18n> {

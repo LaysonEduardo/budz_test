@@ -26,5 +26,14 @@
     "deleteConfirmation": "All your information and your pet's progress in the app will be deleted. This action cannot be undone.",
     "cancel": "Cancel", 
     "deleteReason": "Tell us, what is the reason for the exclusion?",
-    "continueText": "Continue"
+    "continueText": "Continue",
+    "deleteReason1": "I no longer use Budz",
+    "deleteReason2": "Subscription values",
+    "deleteReason3": "Dissatisfaction with the services offered",
+    "deleteReason4": "I had technical problems",
+    "deleteReason5": "Bad or irrelevant content",
+    "deleteReason6": "Experience and usability",
+    "deleteReason7": "Others", 
+    "accountDeleted": "Sua conta foi excluída",
+    "accountDeletedDeletedMessage": "It's a shame to see you go! But rest assured, we will be with open arms if you want to come back. See you later! 💙"
 }

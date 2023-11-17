@@ -42,7 +42,7 @@ class ProfileDeleteModal extends StatelessWidget {
               text: I18n.of(context).deleteAccount.toUpperCase(),
               backgroundColor: AppColors.orange,
               onPressed: () {
-                //TODO change to navigate
+                //TODO change to navigate if user cant back to last screen
                 Modular.to.pushNamed('/delete');
               },
             ),
