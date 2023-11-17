@@ -17,7 +17,7 @@ class DeletedConfirmationProfile extends StatelessWidget {
         backgroundColor: Colors.white,
         leading: IconButton(
           onPressed: () {
-            //But logic to return to login screen here
+            //Put logic to return to login screen here
             Modular.to.navigate('/');
           },
           icon: const Icon(Icons.close_rounded),
@@ -50,7 +50,7 @@ class DeletedConfirmationProfile extends StatelessWidget {
                 text: I18n.of(context).continueText,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 onPressed: () {
-                  //But logic to return to login screen here
+                  //Put logic to return to login screen here
                   Modular.to.navigate('/');
                 },
               ),
