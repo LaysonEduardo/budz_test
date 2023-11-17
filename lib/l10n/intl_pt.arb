@@ -1,0 +1,31 @@
+{
+    "@@locale": "pt",
+
+    "home": "Início",
+    "jorneys": "Jornadas",
+    "chatbot": "Chatbot",
+    "profile": "Perfil",
+    "inDevelopment": "Em desenvolvimento",
+    "loadError": "Erro ao carregar",
+    "editProfile": "Editar Perfil",
+    "myPets": "Meus Pets",
+    "tools": "Ferramentas",
+    "manageSubscription": "Gerenciar Assinatura",
+    "changePassword": "Alterar Senha",
+    "logout": "Sair",
+    "version": "Versão {version}",
+    "changePhoto": "Alterar Foto",
+    "name": "Nome",
+    "email": "Email",
+    "gender": "Gênero",
+    "save": "Salvar",
+    "deleteAccount": "Excluir Conta",
+    "takePicture": "Tirar foto",
+    "choosePicture": "Escolher foto",
+    "sureDeleteAccount": "Tem certeza que deseja encerrar a jornada do seu melhor amigo?",
+    "deleteConfirmation": "Todas as suas informações e a evolução do seu pet no aplicativo serão apagadas. Essa ação não pode ser desfeita.",
+    "cancel": "Cancelar", 
+    "deleteReason": "Conta pra gente, qual o motivo da exclusão?",
+    "continueText": "Continuar"
+
+}
